@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "import/prefer-default-export": 0,
+    "no-restricted-globals": 0
+  }
+}
